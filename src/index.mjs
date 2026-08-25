@@ -15,10 +15,10 @@
  * so it is unit-tested without a network or a Worker runtime.
  */
 
-const DEFAULT_ORACLE = 'https://agent-egress-proxy.onrender.com/v1/forecast-payment';
+const DEFAULT_ORACLE = 'https://blackwall-free.onrender.com/v1/forecast-payment';
 const SERVER_INFO = { name: 'blackwall-remote-mcp', version: '0.1.0' };
 const DEFAULT_PROTOCOL = '2025-06-18';
-const KEY_URL = 'https://agent-egress-proxy.onrender.com/.well-known/blackwall-receipt-key.json';
+const KEY_URL = 'https://blackwall-free.onrender.com/.well-known/blackwall-receipt-key.json';
 
 const FORECAST_TOOL = {
   name: 'forecast_payment',

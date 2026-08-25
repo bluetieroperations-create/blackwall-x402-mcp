@@ -10,4 +10,4 @@ custom_domain = true
 
 # The x402 oracle the tool proxies to. Overridable without a code change.
 [vars]
-ORACLE_URL = "https://agent-egress-proxy.onrender.com/v1/forecast-payment"
+ORACLE_URL = "https://blackwall-free.onrender.com/v1/forecast-payment"
