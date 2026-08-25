@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.blackwalltier/blackwall-x402-guardrail",
-  "description": "Pre-signature x402 payment verdict (GO/HOLD/STOP) for AI agents, with a verifiable signed receipt.",
-  "version": "0.1.1",
+  "description": "Keyless hosted MCP: pre-signature x402 payment verdict (GO/HOLD/STOP) with a signed receipt.",
+  "version": "0.1.2",
   "websiteUrl": "https://blackwalltier.com",
   "remotes": [
     {
@@ -11,7 +11,7 @@
     }
   ],
   "repository": {
-    "url": "https://github.com/bluetieroperations-create/blackwall-mcp-remote",
+    "url": "https://github.com/bluetieroperations-create/blackwall-x402-mcp",
     "source": "github"
   }
 }
